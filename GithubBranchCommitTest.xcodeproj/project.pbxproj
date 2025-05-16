@@ -64,17 +64,49 @@
 		CE09D0A32DD7A51A00F22276 /* GithubBranchCommitTest */ = {
 			isa = PBXGroup;
 			children = (
-				CE09D0A42DD7A51A00F22276 /* AppDelegate.swift */,
-				CE09D0A62DD7A51A00F22276 /* SceneDelegate.swift */,
-				CE09D0A82DD7A51B00F22276 /* ViewController.swift */,
+				CE09D0CA2DD7BAFA00F22276 /* App */,
+				CE09D0C92DD7BAE700F22276 /* Model */,
+				CE09D0C82DD7BADA00F22276 /* Cells */,
+				CE09D0C62DD7BAB900F22276 /* Views */,
 				CE09D0AD2DD7A51E00F22276 /* Assets.xcassets */,
 				CE09D0AF2DD7A51E00F22276 /* LaunchScreen.storyboard */,
 				CE09D0B22DD7A51E00F22276 /* Info.plist */,
-				CE09D0B82DD7AE0C00F22276 /* NotesViewController.swift */,
-				CE09D0BA2DD7AE6300F22276 /* Note.swift */,
-				CE09D0BC2DD7AEFE00F22276 /* NoteCell.swift */,
 			);
 			path = GithubBranchCommitTest;
+			sourceTree = "<group>";
+		};
+		CE09D0C62DD7BAB900F22276 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE09D0A82DD7A51B00F22276 /* ViewController.swift */,
+				CE09D0B82DD7AE0C00F22276 /* NotesViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE09D0C82DD7BADA00F22276 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE09D0BC2DD7AEFE00F22276 /* NoteCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE09D0C92DD7BAE700F22276 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE09D0BA2DD7AE6300F22276 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE09D0CA2DD7BAFA00F22276 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE09D0A42DD7A51A00F22276 /* AppDelegate.swift */,
+				CE09D0A62DD7A51A00F22276 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
