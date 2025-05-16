@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Note: Codable {
+    let text: String
+    let date: Date
+}
